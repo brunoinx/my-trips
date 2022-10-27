@@ -1,5 +1,5 @@
 module.exports = {
-  testEnvironment: 'jest-environment-jsdom',
+  testEnvironment: 'jsdom',
   extensionsToTreatAsEsm: ['.ts', '.tsx'],
   testPathIgnorePatterns: ['/node_modules', '/.next/'],
   collectCoverage: true,
